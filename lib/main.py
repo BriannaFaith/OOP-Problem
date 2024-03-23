@@ -50,6 +50,15 @@ class Scoreboard:
         sorted_participants = sorted(participants, key=lambda p: (-Scoreboard.calculate_score(p), p['name']))
         return [{'name': p['name'], 'score': Scoreboard.calculate_score(p)} for p in sorted_participants]
 
+    def select_winner(participants):
+        sorted_participants = Scoreboard.sort_participants(participants)
+        if sorted_participants:
+            return sorted_participants[0]  # Return the first participant (winner) from the sorted list
+        else:
+            return None
+
 
 sorted_participants = Scoreboard.sort_participants(participants)
 print(sorted_participants)
+winner = Scoreboard.select_winner(participants)
+print("Winner:", winner)

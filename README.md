@@ -29,7 +29,7 @@ Faith Ogendi
 
 # Usage
 1. Clone the repository and navigate to the project directory
-2. Run python3 lib/main.py to view participants and their score.
+2. Run python3 lib/main.py to view participants and their score and the winner.
 
 # Technologies
 1. Python
