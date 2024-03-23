@@ -11,7 +11,6 @@ Hamburgers: 3 points
 
 Hotdogs: 2 points
 
-
 Write a function that helps you create a scoreboard. It takes as a parameter a list of objects representing the participants, for example:
 
 [
@@ -23,6 +22,7 @@ It should return "name" and "score" properties sorted by score; if scores are eq
   {name: "Big Bob", score: 134},
   {name: "Habanero Hillary", score: 98}
 ]
+
 
 # Author
 Faith Ogendi
